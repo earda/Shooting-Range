@@ -171,7 +171,7 @@ public class Gun : Singleton<Gun>
                 TargetHealthManager.Instance.currentHealth = 100;
                 TargetHealthManager.Instance.slider.value = 100;
                 targetCount++;
-                if (targetCount >= 1)
+                if (targetCount >= 5)
                 {
                     UIManager.Instance.FinishLevel();
                 }
